@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.anmolsharma.minifinance.Signuppage">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Name"
+        android:id="@+id/name"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="250dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nameedit"
+        android:layout_marginBottom="430dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="170dp"
+        android:maxLength="10"
+        android:hint="Name(max 10 character)" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Enrollid"
+        android:id="@+id/enrolls"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="250dp"
+        android:layout_marginBottom="400dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/enrolledit"
+        android:hint="6digit"
+        android:maxLength="6"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="380dp"
+        android:layout_marginLeft="170dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Password"
+        android:id="@+id/pass"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_marginTop="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="250dp"
+        android:layout_marginBottom="350dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passedit"
+        android:hint="Characters(6)"
+        android:layout_marginLeft="170dp"
+        android:maxLength="6"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="330dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Address"
+        android:id="@+id/address"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_marginTop="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="250dp"
+        android:layout_marginBottom="300dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressedit"
+        android:hint="Address(max 10 characters)"
+        android:maxLength="10"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="275dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Loan"
+        android:id="@+id/loan"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_marginTop="210dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="250dp"
+        android:layout_marginBottom="250dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/loanedit"
+        android:hint="loan amount"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="210dp"
+        android:maxLength="10"
+        android:layout_marginBottom="230dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="DONE"
+        android:id="@+id/donebutton"
+        android:layout_marginTop="380dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="done" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="MOB.NO"
+        android:id="@+id/phno"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_marginTop="260dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="250dp"
+        android:layout_marginBottom="200dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/phnoedit"
+        android:hint="10 digit number "
+        android:maxLength="10"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="180dp" />
+
+
+
+</RelativeLayout>
